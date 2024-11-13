@@ -1,0 +1,117 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/css/custom.css">
+   <title>Blank Page</title>
+</head>
+
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8">
+<h1>Do It!</h1>
+<p><span style="color: #333333;">Your challenge is to program a robot lawn mower to go over a whole lawn and to use light effects to show when it is mowing.&nbsp;</span></p>
+<h2 id="mcetoc_1bfvijp3f1">Program Your Lawn Mower</h2>
+<p><span style="color: #333333;">Since you need to develop the software program that tells the lawn mower how to move and communicate, you will use a block-coding app called OzoBlockly to write the code, and Ozobot to <a class="popovers-link" data-container="body" role="button" data-toggle="popover" data-placement="top" data-content="A simulation is a model or an imitation of something. For example, SimCity simulates how a city forms, grows, and responds to changes. Astronauts go into space simulators to prepare them for what they will experience in outer space." style="color: #333333;" tabindex="0">simulate&nbsp;</a>the&nbsp;actions and test the code.&nbsp;</span></p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Ozobot/Program%20a%20Lawn%20Mower/program-code_ozobot.jpg" alt="program code" title="program code" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="311" height="175" />&nbsp;<img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Ozobot/Program%20a%20Lawn%20Mower/program-robot_ozobot.jpg" alt="program robot" title="program robot" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="359" height="178" /></p>
+<h2 id="mcetoc_1bfvijp3f4">Warmup Suggestions</h2>
+<p><span style="color: #333333;">To learn to code with OzoBlockly, complete challenges from each set of the activities below. Do as many as you need to get comfortable coding with loops, light effects, and movement.</span></p>
+<table border="1" style="height: 422px; width: 61.8088%; border-collapse: collapse; border-style: solid; border-color: #ffffff; margin-left: auto; margin-right: auto;" height="422">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<p class="small"></p>
+<figure class="figure"><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Ozobot/Program%20a%20Lawn%20Mower/shape-tracer_ozobot.png" alt="Shape Tracer warm-up" title="Shape Tracer warm-up" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="165" height="203" /> <br />
+<figcaption><a href="https://games.ozoblockly.com/?game=shapetracer-basic&amp;lang=en" target="_blank" rel="noopener noreferrer"><strong>Beginning Coders:</strong>&nbsp;<br />Complete Shape Tracer to master to Movement, Light Effects</a></figcaption>
+</figure>
+</td>
+<td style="width: 50%;">
+<p class="small"></p>
+<figure class="figure"><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Ozobot/Program%20a%20Lawn%20Mower/shape-tracer2_ozobot.png" alt="Shape Tracer 2 warm-up" title="Shape Tracer 2 warm-up" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="157" height="202" /> <br />
+<figcaption><a href="https://games.ozoblockly.com/?game=shapetracer-advanced&amp;lang=en" target="_blank" rel="noopener noreferrer"><strong>Intermediate Coders:</strong>&nbsp;<br />Complete Shape Tracer 2&nbsp;to master Movement, Light Effects, Loops</a></figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<h3 id="mcetoc_1bjisuejt0"><span style="color: #333333;">OzoBlockly Tutorial</span></h3>
+<p><span style="color: #333333;">This video tutorial includes instructions for coding, calibrating, and loading your program into Ozobot&rsquo;s controller.</span></p>
+<div class="video-wrapper">
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P5YwebQp9qQ?wmode=opaque" allowfullscreen="true"></iframe></div>
+<div class="video-text">
+<p>Direct Link: <a href="https://www.youtube.com/embed/P5YwebQp9qQ" class="new-window">OzoBlockly Tutorial</a></p>
+</div>
+</div>
+<h2 id="mcetoc_1bfvijp3f7">Create a Simulated Yard</h2>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Ozobot/Program%20a%20Lawn%20Mower/yard_ozobot.jpg" alt="" title="" style="max-width: 100%; float: right;" data-d2l-editor-default-img-style="true" width="199" height="158" /><span style="color: #333333;">Ozobot can not &ldquo;mow&rdquo; a lawn, but you can use Ozobot to&nbsp;<strong>simulate</strong>&nbsp;the movement and light effects of the lawn mower.</span></p>
+<p><span style="color: #333333;"><strong>Preparing for Your&nbsp;</strong><strong>Simulation</strong><strong>:</strong></span></p>
+<ol>
+<li><span style="color: #333333;"><strong>Simulate&nbsp;</strong>a home with a yard. Create a&nbsp;<strong>square or rectangular lawn&nbsp;</strong>using green-colored paper.</span></li>
+<li><span style="color: #333333;"><strong>Simulate</strong>&nbsp;areas that should not be mowed, like sidewalks, gardens, driveways, fences, the house, and garage. Use a different color paper to represent each area.</span></li>
+</ol>
+<p><span style="color: #333333;"><strong>TIP:&nbsp;</strong>Make sure all papers are lying flat. You may need to tape them together or glue them down to a larger sheet of paper.</span></p>
+<h2 id="mcetoc_1bfvijp3fa">Write the Lawn Mower Code</h2>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Ozobot/Program%20a%20Lawn%20Mower/toolbox2_ozobot.png" alt="" title="" style="max-width: 100%; float: right;" data-d2l-editor-default-img-style="true" width="206" height="308" />It is time to write the code. Start with a program that tells Ozobot how to mow the lawn and stay on the grass.</p>
+<p>Here are&nbsp; the <a class="popovers-link" data-container="body" role="button" data-toggle="popover" data-placement="top" data-content="echnical requirements&nbsp;describe every detail of what a technology needs to be able to do." tabindex="0">technical requirements:</a></p>
+<ol>
+<li>The robot should light up green while it is moving.</li>
+<li>The robot should stop when it is done.</li>
+<li>The robot should mow the entire lawn without missing spots or go over the same spot too many times.</li>
+<li>The robot should only drive on the lawn.</li>
+</ol>
+<p><strong>STEPS:&nbsp;</strong></p>
+<ol>
+<li>Go to&nbsp;<a href="https://ozoblockly.com/" target="_blank" rel="noopener">Ozoblockly.com.</a>&nbsp;<span style="color: #333333;">Click on the&nbsp;<strong>Get Started</strong>&nbsp;button.</span></li>
+<li><span style="color: #333333;">Write the code. Drag and drop blocks so they click together.</span></li>
+<li><span style="color: #333333;"><a class="popovers-link" data-container="body" role="button" data-toggle="popover" data-placement="top" data-content="Calibrating is the process of checking to make sure your measuring tools and sensors are accurate. If they are inaccurate, it is also the process of making them accurate." style="color: #333333;" tabindex="0">Calibrate&nbsp;</a>Ozobot.</span></li>
+<li><span style="color: #333333;">Load the program.</span></li>
+<li><span style="color: #333333;">Run the program to test how you did.</span></li>
+</ol>
+<h3 id="mcetoc_1bfvijp3fd">Reflections</h3>
+<ul>
+<li><span style="color: #333333;">Take a video of Ozobot &ldquo;mowing&rdquo; your&nbsp;<strong>simulated</strong>&nbsp;lawn.</span></li>
+<li><span style="color: #333333;">Take a screenshot of your code.</span></li>
+<li><span style="color: #333333;">Record your observations:</span>
+<ul>
+<li><span style="color: #333333;"><em>What did you do to try to complete this project successfully?</em></span></li>
+<li><span style="color: #333333;"><em>What challenges did you face?</em></span></li>
+<li><span style="color: #333333;"><em>How did you overcome those challenges?</em></span></li>
+<li><span style="color: #333333;">Compare your code with another group.&nbsp;<em>How did they meet the challenge? What did they do similarly? What was different about their solution?</em></span></li>
+</ul>
+</li>
+</ul>
+<h2 id="mcetoc_1bfvijp3fh">Program Your Robot to Mow ANY Lawn</h2>
+<p><span style="color: #333333;">Now change your program so it can figure out how to mow different lawns.</span></p>
+<p><span style="color: #333333;"><strong>Preparing for Your Advanced&nbsp;</strong><strong><em>Simulation</em></strong><strong>:</strong></span></p>
+<ol>
+<li><span style="color: #333333;">Create a lawn in any shape.</span></li>
+<li><span style="color: #333333;">Create more sidewalks, gardens, etc. or reuse the ones you had from before to design a new yard.</span></li>
+<li><span style="color: #333333;">While Ozobot mows it should light up&nbsp;<strong>green</strong>.</span></li>
+<li><span style="color: #333333;">If Ozobot drives on the sidewalks or driveway, it should light up&nbsp;<strong>red</strong>&nbsp;to show that it is not mowing.</span></li>
+<li><span style="color: #333333;">When you write the code, make sure Ozobot knows not to drive into buildings and things that can break it. Also, make sure it does not drive through and ruin any gardens.</span></li>
+<li><span style="color: #333333;">Remember to take video and screenshots, and record your observations.</span></li>
+</ol>
+<p><span style="color: #333333;">You can use toolbox 2 to complete this task, but you may want to use toolbox 3 or 4 since they have&nbsp;<em><strong>Logic Statements.</strong></em></span></p>
+<p><span style="color: #333333;"><em><strong><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Ozobot/Program%20a%20Lawn%20Mower/logic_ozobot.png" alt="" title="" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;" data-d2l-editor-default-img-style="true" /></strong></em></span></p>
+</div>
+</div>
+<footer><!-- <p>� [Client] [Year]</p> --> <img src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/img/sl_cls_logo.png" alt="logo" /></footer></div>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/jquery/jquery-3.4.1.min.js"></script>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+<!-- Template JavaScript -->
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/js/scripts.min.js"></script>
+</body>
+
+</html>

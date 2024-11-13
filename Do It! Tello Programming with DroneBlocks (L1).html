@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/css/custom.css">
+   <title>Blank Page</title>
+</head><body><div class="container-fluid">
+<div class="row">
+<div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8">
+<h1>Do It! Tello Drone: Programming with DroneBlocks</h1>
+<h2><img src="/content/enforced/6742-CLS-5-2021/CLS_Template/HQ%20Templates/CLS%20Icons%20-%20Do%20-%20Color.png" alt="" title="" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="25" height="25">&nbsp;The Challenge</h2>
+<p>Your challenge is to program your drone to navigate through any obstacles to deliver the item efficiently. Map out your route and calculate the distance between stops using a coordinate plane.</p>
+<h2><img src="/content/enforced/6742-CLS-5-2021/CLS_Template/HQ%20Templates/CLS%20Icons%20-%20Do%20-%20Color.png" alt="" title="" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="25" height="25">&nbsp;Getting Started</h2>
+<h3>Takeoff and Landing With Tello</h3>
+<p>Before launching your mission, it's important to understand how the Tello takes off and lands. Follow these steps to guide you through commanding Tello to take off and land so that you can practice precise launches and landings.</p>
+<p><img src="Learning%20Launchers/Robotics%20and%20Control%20Technology/Tello/Programming%20with%20DroneBlocks%20(L1)/Tello_TakeoffLand_CLS.png" alt="takeoff and land labeled commands" title="takeoff and land labeled commands" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<h3>Prepare Your Mission</h3>
+<ol>
+<li>Enter the first command by dragging the Takeoff block. *<em>Interested in learning more about text-based programming?</em> If you select the Menu (three blue lines), then choose Show Mission Code, you will see the actual code for this block: takeoff( );</li>
+<li>Tello will take off and hover at approximately 4-5 feet (roughly 1.5 meters).</li>
+<li>Add a Hover block to hold Tello in the air for 5 seconds. <em>What is the text-based code for the Hover block?</em></li>
+<li>Enter the final command by dragging the Land block and placing it below the previous blocks.</li>
+</ol>
+<h3>Launch Your Mission</h3>
+<p><img src="Learning%20Launchers/Robotics%20and%20Control%20Technology/Tello/Programming%20with%20DroneBlocks%20(L1)/Tello_Launching_CLS.png" alt="launch mission tab" title="launch mission tab" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<ol>
+<li>Connect your device to Tello's WiFi network.</li>
+<li>Place Tello on a flat surface.</li>
+<li>Check that the battery level on Tello is fully charged.</li>
+<li>When ready, select Launch Mission on the menu and watch your Tello in action.</li>
+</ol>
+<p>Quick Challenge: Mark a spot where you want your Tello to take off and another spot where you want it to land. Modify your mission so that your Tello travels from the takeoff spot to the landing spot. <em>How precise can you get?</em> In your project submission, describe this experience and how close you could get the Tello to the marked landing spot.</p>
+<h3>Save Your Mission</h3>
+<p>Logging in to a Google account (in the menu) can save missions to review later. This is especially useful when using programmed missions for a classroom grade or sharing devices in a classroom.</p>
+<p>When finished testing or running your program, properly disconnect Tello from the device and recharge the battery for your next mission.</p>
+<h2><img src="/content/enforced/6742-CLS-5-2021/CLS_Template/HQ%20Templates/CLS%20Icons%20-%20Do%20-%20Color.png" alt="" title="" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="25" height="25">&nbsp;Project Steps</h2>
+<ol class="large-number">
+<li>
+<p id="mcetoc_1ec0lbk8m9a">Sketch Out the Drone Path</p>
+</li>
+<li>
+<p>Program Your Drone</p>
+</li>
+<li>Test It Out!</li>
+<li>
+<p>Debug Your Program</p>
+<hr></li>
+</ol>
+<h3>Sketch Out the Drone Path</h3>
+<div class="row">
+<div class="col-12 col-sm-6 col-md-8">
+<p>Brainstorm the path your drone will take to deliver the item.</p>
+<p><em>What type of environment will it be?</em></p>
+<p>As you sketch the path, consider how your drone will navigate the following:</p>
+<ul>
+<li>Intersections</li>
+<li>Different turns</li>
+<li>Buildings or structures of different heights</li>
+<li>Moving obstacles like people, animals, planes, cars, etc.</li>
+</ul>
+</div>
+<div class="col-12 col-sm-6 col-md-4">
+<figure><img src="Learning%20Launchers/Robotics%20and%20Control%20Technology/Tello/Programming%20with%20DroneBlocks%20(L1)/Tello_DronePath_CLS.jpg" alt="person sketching" title="person sketching" data-d2l-editor-default-img-style="true" style="max-width: 100%;"><br>
+<figcaption></figcaption>
+</figure>
+</div>
+</div>
+<p>Sketch out your plan, being as descriptive as possible. You may want to write down basic instructions you would give for someone to navigate the path. Later, you will translate those directions into a programming language your Tello understands using code blocks.<br>As you write your directions, ask yourself:</p>
+<ul>
+<li><em>Can I break this step down into simpler steps?</em></li>
+<li><em>Is this the safest and most efficient route to take?</em></li>
+<li><em>What conditionals should I think about when writing out my path? How can conditionals help my drone operate under different circumstances?</em></li>
+</ul>
+<p>Create a visual representation of your path using a <strong>coordinate plane</strong> and <strong>ordered pairs</strong> as a guide to document and measure the distance between locations. If you have a map of your route, you can draw a coordinate plane over the map.</p>
+<p><img src="Learning%20Launchers/Robotics%20and%20Control%20Technology/Tello/Programming%20with%20DroneBlocks%20(L1)/Tello_Map_CoordinatePlane_CLS.jpg" alt="map with coordinate plane" title="map with coordinate plane" data-d2l-editor-default-img-style="true" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Using the sketch of your plan:</p>
+<ul>
+<li>Draw a coordinate plane
+<ul>
+<li>Choose how long your <em>x</em>- and <em>y</em>-axis will be based on the area your drone will travel in.</li>
+<li>Identify the measurement you are using (miles, feet, yards, etc.).</li>
+</ul>
+</li>
+<li>Mark important landmarks on your coordinate plane using ordered pairs
+<ul>
+<li>Intersections</li>
+<li>Buildings or structures</li>
+<li>Moving obstacles</li>
+<li>Starting point</li>
+<li>Delivery location</li>
+</ul>
+</li>
+</ul>
+<p><img src="Learning%20Launchers/Robotics%20and%20Control%20Technology/Tello/Programming%20with%20DroneBlocks%20(L1)/Tello_Route_CLS.png" alt="route plan" title="route plan" width="636" height="512" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<ul>
+<li>Ensure at least two important landmarks have the same <em>y</em>-value.</li>
+<li>Ensure at least two important landmarks have the same <em>x</em>-value.</li>
+<li>Ensure that you plot coordinates in all four planes.</li>
+<li>Determine the distance between two locations with the same <em>y</em>-value.</li>
+<li>Then, determine the distance between two locations with the same <em>x</em>-value.</li>
+<li>Determine the distance from the starting point to the delivery point.</li>
+<li>You will upload your plan with the marked coordinates and your distance calculations in your Final Project Submission.</li>
+</ul>
+<p>Refer to the <em>What You Should Know</em> section for guidance on calculating distance.</p>
+<p><img src="Learning%20Launchers/Robotics%20and%20Control%20Technology/Tello/Programming%20with%20DroneBlocks%20(L1)/Tello_Route_CLS.png" alt="route plan" title="route plan" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<p>The given image above provides an example of the following (distance in miles):</p>
+<ul>
+<li>The start point, bank, and delivery point have the same <em>x</em>-value.
+<ul>
+<li>The distance between the start point and the bank is 10 miles south.</li>
+<li>The distance between the bank and the delivery point is 40 miles south.</li>
+<li>The distance between the start point and the delivery point is 50 miles south.</li>
+</ul>
+</li>
+<li>The car and the intersection have the same <em>x</em>-value.
+<ul>
+<li>The distance between the car and the intersection is 10 miles north.</li>
+</ul>
+</li>
+<li>A person and the delivery point have the same <em>y</em>-value.
+<ul>
+<li>The distance between the person and the delivery point is 20 miles east.</li>
+</ul>
+</li>
+</ul>
+<h3 id="mcetoc_1bg6jemae3">Program Your Drone</h3>
+<p>Now that you have planned out your drone’s path to deliver the item, it is time to use DroneBlocks to code your drone.</p>
+<p>As you start programming, you should also start thinking about the drone's actions in terms of behaviors. Recall that as a programmer, your primary responsibilities are:</p>
+<ol>
+<li dir="ltr" role="presentation">Come up with a plan for the drone to reach the goal.</li>
+<li dir="ltr" role="presentation">Translate that plan into a program that the drone can understand and follow.</li>
+</ol>
+<p><img src="Learning%20Launchers/Robotics%20and%20Control%20Technology/Tello/Programming%20with%20DroneBlocks%20(L1)/Tello_DroneProgram_CLS.png" alt="DroneBlocks drone flight program" title="DroneBlocks drone flight program" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<p>Think about how far your drone will have to travel to complete the mission. If your drone needs to travel a large distance, you may need to create a model or simulation of that trip.</p>
+<p><em>Do you have the space to complete this project outside? Or do you have to create a smaller model of the pathway you planned?</em></p>
+<p><em>If you included measurements in your map, can you think of a way to scale down the route accurately? </em>Example: For every foot the drone would travel for the actual task, the drone only travels one inch during the simulation.</p>
+<p>Take a picture of your initial program and add it to your project submission. This will be helpful when you later reflect on how you improved your program throughout the project.</p>
+<h3 id="mcetoc_1bg6jlt4n7">Test It Out!</h3>
+<div class="row">
+<div class="col-12 col-sm-6 col-md-8">
+<p>Remember, if you don't have access to your community, you can set up a model of the obstacle course to represent the intended path. But, again, consider safety and survey the area in which you have to fly to account for distances entered in your code.</p>
+</div>
+<div class="col-12 col-sm-6 col-md-4">
+<figure><img src="Learning%20Launchers/Robotics%20and%20Control%20Technology/Tello/Programming%20with%20DroneBlocks%20(L1)/Tello_DroneFlying_CLS.jpg" alt="man flying drone" title="man flying drone" data-d2l-editor-default-img-style="true" style="max-width: 100%;"><br>
+<figcaption></figcaption>
+</figure>
+</div>
+</div>
+<p>Now that you have programmed and documented the plan you want your drone to follow, it is time to test it out! Pay close attention to the precision and accuracy of your drone path. <em>Did it follow the intended path? Was it the safest route?</em></p>
+<p>Choosing the most efficient routes and avoiding obstacles is key to the success of this type of transport.</p>
+<h3 id="mcetoc_1bg6jemae3">Debug Your Program</h3>
+<p>After your first trial run, you will need to make adjustments to achieve this goal. Make sure you document what changes you made in your project submission.</p>
+<p>For example, you may have noticed that some of the blocks used in your path became a bit redundant. This code could have been simplified using one of the most important skills of coding, the loop. The loop block, known as "repeat" in DroneBlocks, allows you to repeat individual commands or combinations of commands as many times as you need it to.</p>
+<p><em>How can loops and conditionals improve your program efficiency?</em> Check the <em>What You Should Know</em> Section if you need a reminder of the types of code blocks you might use.</p>
+</div>
+</div>
+<footer><img src="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../assets/img/Creative%20Learning%20Systems%20Logo_Full%20Color.png" alt="" title="" height="60"></footer></div>
+<p>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/jquery/jquery-3.4.1.min.js"></script>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</p>
+<!-- Template JavaScript -->
+<p>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/js/scripts.min.js"></script>
+</p></body></html>

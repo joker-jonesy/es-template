@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/css/custom.css">
+   <title>Blank Page</title>
+</head><body><div class="container-fluid">
+<div class="row">
+<div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8">
+<h1>Do It! Sphero:&nbsp;Algorithms</h1>
+<h2><img src="CLS_Template/HQ%20Templates/CLS%20Icons%20-%20Do%20-%20Color.png" alt="" title="" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="25" height="25">&nbsp;The Challenge</h2>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Sphero%20SPRK%2B/Under%20Control/student-group_spherosprk.jpg" alt="undefined" title="undefined" width="243" height="162" style="float: right;">Your challenge is to learn how to control a Sphero robot so that it can do tricks and follow a path you create. Then, write and test an algorithm based on Sphero’s actions so that you can make the robot repeat itself. Finally, write and solve a word problem based on your algorithm.</p>
+<h2><img src="CLS_Template/HQ%20Templates/CLS%20Icons%20-%20Do%20-%20Color.png" alt="" title="" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="25" height="25">&nbsp;Getting Started</h2>
+<h3><strong>Connect Sphero</strong></h3>
+<ol>
+<li>Make sure your Sphero is charged.</li>
+<li>If you do not already have one, create an account on <a href="https://edu.sphero.com/" target="_blank" rel="noopener">Sphero Edu</a>.</li>
+<li>Use the <a href="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Sphero%20SPRK%2b/Under%20Control/Sphero%20SPRK%2b%20QuickStartGuide.pdf" target="_blank" rel="noopener">Quick Start Guide</a>&nbsp;to set up and connect your Sphero to your phone or tablet.</li>
+</ol>
+<h3><strong>Practice With Sphero Edu App</strong></h3>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Sphero%20SPRK%2B/Under%20Control/edu_spherosprk.png" alt="undefined" title="undefined" width="140" height="136" style="float: right;">Start by getting used to Sphero and the Sphero EDU app.</p>
+<ol>
+<li>Open the Sphero Edu app.</li>
+<li>Tap the <strong>Drive</strong> button at the bottom left.</li>
+<li>Spend 10 minutes practicing these skills: calibrate, aim, drive, change speed, change color, and change brightness.</li>
+<li>Tap the <strong>Programs</strong> tab.</li>
+<li>Go to <strong>My Programs</strong> and tap the <strong>+</strong> button.</li>
+<li>Type in “Test Drawing” at the top as your program name, select the <strong>Draw</strong> option, and your robot type.</li>
+<li>Click <strong>Create</strong> and start drawing. Try changing colors and speeds by clicking on the color wheel at the bottom left.</li>
+<li>Take notes about what you learn in each step of the process.</li>
+<li>Hit <strong>Start</strong> to send your instructions to Sphero. Take screenshots of your designs, and videos of Sphero in action.</li>
+</ol>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Sphero%20SPRK%2B/Under%20Control/name-program_spherosprk.png" alt="undefined" title="undefined" width="275" height="268" style="display: block; margin-left: auto; margin-right: auto;">&nbsp;</p>
+<h2><img src="CLS_Template/HQ%20Templates/CLS%20Icons%20-%20Do%20-%20Color.png" alt="" title="" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="25" height="25">&nbsp;Project Steps</h2>
+<ol class="large-number">
+<li>
+<p id="mcetoc_1ec0lbk8m9a">Warm Up Word Problem and Algorithm</p>
+</li>
+<li>
+<p>Plan Your Own Path for Sphero</p>
+</li>
+<li>
+<p>Write an Algorithm for the Path</p>
+</li>
+<li>Write a Word Problem to Fit the Path</li>
+<li>Check With Mental Math</li>
+</ol>
+<hr>
+<h3><strong>Warm Up Word Problem and Algorithm</strong></h3>
+<p>Before jumping into writing algorithms for Sphero, practice solving a word problem and writing an algorithm based on the word problem.</p>
+<p>Look at the simple map below. Use it, along with the word problem steps, to solve this word problem:</p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Sphero%20SPRK%2B/Under%20Control/Sphero_Map_CLS.jpg" alt="undefined" title="undefined" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<p>Fabri walks to school. He walks 3 blocks and along the way he passes the park. He then turns and walks 1 block to meet his friend Jo at her home. Together, they walk 4 more blocks to the school. <em>How many more blocks does Fabri walk than Jo? </em></p>
+<ol>
+<li>First, find the question and look for clues.<br>Fabri walks to school. He walks 3 blocks and along the way he passes the park. He then turns and walks 1 block to meet his friend Jo at her home. Together, they walk 4 more blocks to the school. <span style="text-decoration: underline;"><em>How many more blocks does Fabri walk than Jo?</em></span> &nbsp;</li>
+<li>Step 2 would be to draw a picture, but in this case, since you have a picture, you can just draw or imagine the paths Fabri and Jo took to get to school.</li>
+<li>Next, write down each step you use to solve the problem. Start by writing a math sentence that matches the story.</li>
+<li>Finally, the last step for solving a word problem is to use mental math to check your answer.</li>
+<li>Now that you have solved the word problem, you are ready to write an algorithm to match the story. Write the steps that Fabri must follow to meet his friend and go to school. Use the compass rose for directions. The first few steps are given for you:
+<ol>
+<li>Exit the home and turn east.</li>
+<li>Walk one block.</li>
+<li>Turn south.</li>
+</ol>
+</li>
+<li>Test out your algorithm by sharing it and the map with a classmate; ask the classmate to draw the path from Fabri’s house to school based on your instructions. If the path drawn is correct then your algorithm is probably clear enough. If the path is drawn incorrectly, you may need to change your algorithm.</li>
+<li>Using the Draw option, program Sphero to follow the steps you wrote (1 block could be 10 cm or a distance of your choosing). Test them out. <em>Did Sphero follow the path you wanted? If not, how could you rewrite the steps to be clearer and more specific so that Sphero follows your path exactly? </em></li>
+</ol>
+<h3 id="mcetoc_1bg6jemae3"><strong>Plan Your Own Path for Sphero</strong></h3>
+<p>Now plan your own path for Sphero to follow. Be sure to think of every step in the path so that you do not leave anything out when you program it with code.</p>
+<p style="padding-left: 40px;">1. Plan a path that meets these design specifications:</p>
+<ul>
+<li>Sphero should change color at least once.</li>
+<li>Sphero should change speed at least twice.</li>
+<li>Sphero should change direction at least four times.</li>
+<li>Optional: Set up Sphero ramps for Sphero to drive over.</li>
+</ul>
+<p style="padding-left: 40px;">2. Sketch the path on grid paper. Use pictures or symbols to identify where Sphero changes colors and speeds. Make sure your path meets the design specifications.</p>
+<h3 id="mcetoc_1bg6jlt4n7"><strong>Write an Algorithm for the Path</strong></h3>
+<div class="row">
+<div class="col-12 col-sm-6 col-md-8">
+<p style="padding-left: 40px;">1. Write the steps Sphero should take in order to follow your path exactly. Hint: You can use these phrases in your steps:&nbsp;</p>
+<ul>
+<li>Move forward ____ cm</li>
+<li>Move left ____&nbsp; cm</li>
+<li>Change color from ____________ to ____________</li>
+<li>Set speed to ____________</li>
+</ul>
+<p style="padding-left: 40px;">2. Here is an example for a simple path:</p>
+<ul>
+<li>Set the starting color to orange and the starting speed to the slowest option.</li>
+<li>Move forward 40 cm.</li>
+<li>Change color to green.</li>
+<li>Turn right.</li>
+<li>Change speed to the option halfway between fastest and slowest.</li>
+<li>Move forward 120 cm.</li>
+<li>Stop for 2 seconds.</li>
+<li>Change color from green to red.</li>
+<li>Turn right.</li>
+<li>Change speed to the fastest option.</li>
+<li>Move forward 40 cm.</li>
+<li>Turn right.</li>
+<li>Change speed to the slowest option.</li>
+<li>Move forward 120 cm.</li>
+</ul>
+</div>
+<div class="col-12 col-sm-6 col-md-4">
+<figure><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Sphero%20SPRK%2B/Under%20Control/algorithmexample_spherosprk.JPG" alt="undefined" title="undefined" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></figure>
+</div>
+</div>
+<p>Test your steps with Sphero; use only the written directions to guide your use of the Draw program, and not drawings or photos. If you cannot get Sphero to take the path you were expecting, consider how you would need to rewrite the instructions. Keep testing and adjusting your algorithm until Sphero’s movements and activities match your written instructions exactly.</p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Sphero%20SPRK%2B/Under%20Control/Sphero_Path_CLS.jpg" alt="undefined" title="undefined" width="502" height="165" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<h3><strong>Write a Word Problem to Fit the Path</strong></h3>
+<p>This is your chance to write your own challenging word problem based on your path. Here is an example of a word problem that relates to the algorithm above:</p>
+<p>“I wanted to go on a walk to look at flowers. I was “orange” with excitement. I walked 4 blocks and saw beautiful daffodils. I turned “green” with envy since daffodils won’t grow in my garden. Then I turned right and decided to jog to the rose garden. After 12 blocks I arrived and stopped to smell the roses. But after only 2 seconds I turned “red” with embarrassment; I got a thorn stuck in my nose! So, I turned right again and ran 4 more blocks before anyone could see me. After another right turn, I walked 12 blocks to go back to where I started. <em>How far did I go altogether?</em>” (1 block = 10 cm for Sphero.)</p>
+<h3><strong>Write a Math Sentence</strong></h3>
+<p>Now that you wrote your own word problem, you need to know the answer. Write and solve math sentence(s). Here are examples based on the word problem above:</p>
+<p>2 × (4 + 12) = <em>d</em> or (2 × 4) + (2 × 12) = <em>d</em></p>
+<h3><strong>Check With Mental Math</strong></h3>
+<p>Use mental math to help figure out the distance. In our example, you could use estimation. Consider that 4 is close to 5; two 5s is 10. 12 is close to 10; two 10s is 20. So the total distance is close to 10 + 20, or 30. Or, you can use addition: 4 + 12 + 4 + 12 = <em>d</em></p>
+<p>Share your word problem with a friend to solve. <em>Did their result match yours?</em></p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/Sphero%20SPRK%2B/Under%20Control/ramps2_spherosprk.jpg" alt="undefined" title="undefined" width="258" height="258" style="display: block; margin-left: auto; margin-right: auto;"></p>
+</div>
+</div>
+<footer><img src="Creative%20Learning%20Systems%20Logo_Full%20Color.png" alt="undefined" title="undefined" width="130" height="60"></footer></div>
+<p>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/jquery/jquery-3.4.1.min.js"></script>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</p>
+<!-- Template JavaScript -->
+<p>
+<script src="/shared/LCS_HTML_Templates/CLS_Template_2020/_assets/js/scripts.min.js"></script>
+</p></body></html>

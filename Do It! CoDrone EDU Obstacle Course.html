@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../LCS_HTML_Templates/CLS_Template_2020/_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../LCS_HTML_Templates/CLS_Template_2020/_assets/css/custom.css">
+   <title>Blank Page</title>
+</head><body><div class="container-fluid">
+<div class="row">
+<div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8">
+<h1>Do It!&nbsp;CoDrone EDU: Obstacle Course</h1>
+<h2><img src="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../CLS%20Shared%20Assets/Project%20Starter%20Icons/CLS%20Icons%20-%20Do%20-%20Color.png" title="" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="25"> The Challenge</h2>
+<p>Your challenge is to design an obstacle course using a coordinate plane. Then, build the course and program CoDrone EDU to fly the path while avoiding added obstacles.</p>
+<h2><img src="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../CLS%20Shared%20Assets/Project%20Starter%20Icons/CLS%20Icons%20-%20Do%20-%20Color.png" title="" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="25">&nbsp;Project Steps</h2>
+<ol class="large-number">
+<li>
+<p id="mcetoc_1ec0lbk8m9a">Graph Your Obstacle Course</p>
+</li>
+<li>Set a Unit of Distance</li>
+<li>Program and Test</li>
+<li>Loop It</li>
+<li>
+<p>Create the Obstacle Course</p>
+</li>
+<li>
+<p>Avoid Obstacles</p>
+</li>
+</ol>
+<hr>
+<h3>Graph Your Obstacle Course</h3>
+<p>To design your obstacle course, use this graph paper, which shows the 1st quadrant of a coordinate plane. Read all of the instructions here before getting started.</p>
+<ol>
+<li>Draw and label coordinates.</li>
+<li>Connect the coordinates with lines. These lines will represent the flight path.
+<ol>
+<li>Connected coordinates should share an x or y coordinate so that distances can easily be calculated. For example, (5,1) and (5,4) share an x-coordinate, so these coordinates can be connected by a line. (3,6) and (6,6) share a y-coordinate. See the image below for an example.</li>
+</ol>
+</li>
+<li>Calculate the lengths of those lines by subtracting the smaller coordinate value from the larger one.</li>
+</ol>
+<p>You will collect a photo of your coordinate plane, which should include labeled coordinates and the calculated distances between connected coordinates, and upload this photo for your project submission.</p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/CoDrone%20EDU/Obstacle%20Course/CoDrone_CoordinatePlane_CLS.png" class="img-fluid" alt="Example of coordinate plane with coordinates and calculations showing the distance between them" title="Example of coordinate plane with coordinates and calculations showing the distance between them" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<h3 id="mcetoc_1bg6jemae3">Set a Unit of Distance</h3>
+<p>Before you can program CoDrone EDU to fly your path, first, set a unit of distance. For CoDrone EDU, this is the distance traveled for 1 second at a defined power percentage. For example, 1 unit of distance can be the equivalent of 1 second of flight at 50% power.</p>
+<p>If you haven’t already done so, you will want to test how far CoDrone EDU flies at 50% power for 1 second. If you realize that it covers too much distance—considering how many units of distance you mapped out on your coordinate plane compared to the size of your flight space—you may want to test the flight distance at 10% or 20% power for 1 second. Choose a unit of distance that will work with your allotted space. This unit of distance will need to be the same for all paths programmed.</p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/CoDrone%20EDU/Obstacle%20Course/CoDrone_PowerPerSecond_CLS.png" class="img-fluid" alt="Block code showing 50% power at 1 second" title="Block code showing 50% power at 1 second" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<h3 id="mcetoc_1bg6jemae3">Program and Test</h3>
+<p>Once you establish your unit of distance, write a program in Blockly to direct CoDrone EDU flight to match the path you drew on your coordinate plane.</p>
+<p>Test your program and make modifications until the flight pattern matches the path drawn on your coordinate plan.</p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/CoDrone%20EDU/Obstacle%20Course/CoDrone_ExampleProgram_CLS.png" class="img-fluid" alt="Detail of example program" title="Detail of example program" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<h3 id="mcetoc_1bg6jemae3">Loop It</h3>
+<p>In order to mark down the path of flight with masking tape, you will need your drone to repeatedly fly the path while you lay down the tape. The easiest way to make this happen is to loop your program. Complete <a href="https://learn.robolink.com/lesson/1-6-loops-junior-cde-blockly/" target="_blank" rel="noopener">Blockly Lesson 1.6: Loops</a> to learn how to do this. Then, use what you learn to modify your program. This will help you in the next step.</p>
+<p>You will collect a screenshot of your program with the loop and upload it for your project submission.</p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/CoDrone%20EDU/Obstacle%20Course/CoDrone_ExampleLoopProgram_CLS.png" class="img-fluid" alt="Detail of example program with a simple loop" title="Detail of example program with a simple loop" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<h3 id="mcetoc_1bg6jemae3">Create the Obstacle Course</h3>
+<p>Use masking tape or painter’s tape to mark down the path on the floor of your flight space. You will need to follow the flight of your drone and match its flight path. The loop will make your drone fly continuously to give you time to mark its path.</p>
+<p>In Lesson 1.6: Loops, you learned multiple ways to have your program repeat. You may choose any one of the methods to have your flight pattern repeat; the first “for loop” is the simplest option. However, if you want a challenge, try the more difficult “for loop”, the “while loop”, or the “until loop”.</p>
+<p>Once you have marked out the entire path, add in obstacles for CoDrone EDU to fly over or under. If you choose to have CoDrone EDU fly under obstacles, make sure there is enough clearance for it to get through without crashing. You may want to test this by manually flying CoDrone EDU under the obstacle using the controller.</p>
+<p>You will collect a photo of your complete obstacle course to upload for your project submission.</p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/CoDrone%20EDU/Obstacle%20Course/CoDrone_ObstacleCourse_CLS.jpg" class="img-fluid" alt="Example obstacle course" title="Example obstacle course" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<h3 id="mcetoc_1bg6jemae3">Avoid Obstacles</h3>
+<p>Modify your program to avoid the obstacles. You can first remove the loop from your program to simplify things.</p>
+<p>You will collect a screenshot of the modified program for your project submission.</p>
+<p><img src="Liftoff%20Challenges/Robotics%20and%20Control%20Technology/CoDrone%20EDU/Obstacle%20Course/CoDrone_ExampleObstacleProgram_CLS.png" class="img-fluid" alt="Detail of example program avoiding obstacles" title="Detail of example program avoiding obstacles" data-d2l-editor-default-img-style="true" style="max-width: 100%;"></p>
+<footer><img src="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../assets/img/Creative%20Learning%20Systems%20Logo_Full%20Color.png" alt="" title="" height="60"></footer></div>
+</div>
+</div>
+<p>
+<script src="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/jquery/jquery-3.4.1.min.js"></script>
+<script src="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../LCS_HTML_Templates/CLS_Template_2020/_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</p>
+<!-- Template JavaScript -->
+<p>
+<script src="/shared/HTML-Template-Library/HTML-Templates-V2-Easy/module_templates/../../../LCS_HTML_Templates/CLS_Template_2020/_assets/js/scripts.min.js"></script>
+</p></body></html>
