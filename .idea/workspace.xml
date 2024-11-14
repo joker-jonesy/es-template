@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e054751e-69a5-4bd2-ab22-03d0fac9ffb3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Do It!.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liftoff_Challenges/Upload-Process/image-placeholder.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Liftoff_Challenges/Upload Process/image-placeholder.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="e054751e-69a5-4bd2-ab22-03d0fac9ffb3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +14,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2ooKchk7FG9CWF3Q220yUNOk9pV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/joker_jonesy/WebstormProjects/es-template",
@@ -31,13 +32,21 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "settings.editor.selected.configurable": "preferences.externalTools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/yourchallenge" />
+      <recent name="$PROJECT_DIR$/what" />
+      <recent name="$PROJECT_DIR$/challenge" />
+      <recent name="$PROJECT_DIR$/information" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,10 +58,14 @@
       <option name="presentableId" value="Default" />
       <updated>1731530570464</updated>
       <workItem from="1731530571592" duration="1789000" />
+      <workItem from="1731532925708" duration="4692000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
