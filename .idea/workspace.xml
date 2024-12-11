@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e054751e-69a5-4bd2-ab22-03d0fac9ffb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/challenge/assignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/what/animationish_express_yourself.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/do_it/Do_It!_Animation-ish_Learning_to_Animate.html" beforeDir="false" afterPath="$PROJECT_DIR$/do_it/Do_It!_Animation-ish_Learning_to_Animate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/do_it/Do_It!_Animation-ish_Wiggledoodle_and_Flipbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/do_it/Do_It!_Animation-ish_Wiggledoodle_and_Flipbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extendyourself/Extend_Yourself_-_Animation-ish_Express_Yourself.html" beforeDir="false" afterPath="$PROJECT_DIR$/extendyourself/Extend_Yourself_-_Animation-ish_Express_Yourself.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information/Information_About_Observing_With_NASA.html" beforeDir="false" afterPath="$PROJECT_DIR$/information/Information_About_Observing_With_NASA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extendyourself/Extend_Yourself_-_Animation-ish_Learning_to_Animate.html" beforeDir="false" afterPath="$PROJECT_DIR$/extendyourself/Extend_Yourself_-_Animation-ish_Learning_to_Animate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information/Information_About Animation-ish.html" beforeDir="false" afterPath="$PROJECT_DIR$/information/Information_About Animation-ish.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/joker_jonesy/WebstormProjects/es-template&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/joker_jonesy/WebstormProjects/es-template/do_it&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,6 +50,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/do_it" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -86,7 +83,8 @@
       <workItem from="1732287488001" duration="832000" />
       <workItem from="1732556634196" duration="32000" />
       <workItem from="1733930409890" duration="806000" />
-      <workItem from="1733933365096" duration="1410000" />
+      <workItem from="1733933365096" duration="2831000" />
+      <workItem from="1733940791472" duration="385000" />
     </task>
     <servers />
   </component>
