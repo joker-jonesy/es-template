@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e054751e-69a5-4bd2-ab22-03d0fac9ffb3" name="Changes" comment="" />
+    <list default="true" id="e054751e-69a5-4bd2-ab22-03d0fac9ffb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/challenge/assignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/what/animationish_express_yourself.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/do_it/Do_It!_Animation-ish_Learning_to_Animate.html" beforeDir="false" afterPath="$PROJECT_DIR$/do_it/Do_It!_Animation-ish_Learning_to_Animate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/do_it/Do_It!_Animation-ish_Wiggledoodle_and_Flipbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/do_it/Do_It!_Animation-ish_Wiggledoodle_and_Flipbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extendyourself/Extend_Yourself_-_Animation-ish_Express_Yourself.html" beforeDir="false" afterPath="$PROJECT_DIR$/extendyourself/Extend_Yourself_-_Animation-ish_Express_Yourself.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information/Information_About_Observing_With_NASA.html" beforeDir="false" afterPath="$PROJECT_DIR$/information/Information_About_Observing_With_NASA.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +39,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/joker_jonesy/WebstormProjects/es-template&quot;,
@@ -42,9 +58,9 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/what" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/yourchallenge" />
-      <recent name="$PROJECT_DIR$/what" />
       <recent name="$PROJECT_DIR$/challenge" />
       <recent name="$PROJECT_DIR$/information" />
     </key>
@@ -60,6 +76,17 @@
       <workItem from="1731530571592" duration="1789000" />
       <workItem from="1731532925708" duration="4692000" />
       <workItem from="1731594979507" duration="4023000" />
+      <workItem from="1731679519684" duration="392000" />
+      <workItem from="1731693654245" duration="1358000" />
+      <workItem from="1731946927303" duration="2270000" />
+      <workItem from="1732114761561" duration="718000" />
+      <workItem from="1732127173728" duration="647000" />
+      <workItem from="1732129641943" duration="1099000" />
+      <workItem from="1732132449618" duration="2078000" />
+      <workItem from="1732287488001" duration="832000" />
+      <workItem from="1732556634196" duration="32000" />
+      <workItem from="1733930409890" duration="806000" />
+      <workItem from="1733933365096" duration="1410000" />
     </task>
     <servers />
   </component>
